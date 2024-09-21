@@ -9,4 +9,20 @@
    cd kerrsid_2024
    ```
 
-   Open http://localhost:5173 in browser
+2. Install the dependencies:
+
+   ```sh
+   npm i
+   ```
+
+3. Run the application:
+
+   ```sh
+   npm run dev
+   ```
+
+4. Open the app in browser
+
+   ```sh
+   http://localhost:5173
+   ```

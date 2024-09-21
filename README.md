@@ -5,7 +5,7 @@
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/Matei87/https://github.com/Matei87/kerrsid_2024.git
+   git clone https://github.com/Matei87/kerrsid_2024.git
    cd kerrsid_2024
    ```
 

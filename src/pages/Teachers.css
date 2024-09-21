@@ -1,0 +1,150 @@
+#teachers .title {
+  font-size: 30px;
+  color: #344054;
+}
+
+#teachers .subtitle {
+  font-size: 16px;
+  color: #667085;
+}
+
+#teachers .btn-modal {
+  width: 15%;
+  gap: 4px;
+  border-radius: 8px !important;
+  padding: 12px !important;
+  border: none !important;
+}
+
+#teachers .score {
+  width: fit-content;
+  border: 1px solid #eaecf0;
+  padding: 4px 10px;
+  border-radius: 16px;
+  font-size: 14px;
+  color: #344054;
+}
+
+#teachers .edit,
+#teachers .view {
+  padding: 6px 10px !important;
+  gap: 6px;
+  border-radius: 4px !important;
+  font-size: 14px;
+  border: none !important;
+}
+
+#teachers .edit {
+  background: #e8efff !important;
+  color: #446ecb;
+}
+
+#teachers .view {
+  background: #ebfdec !important;
+  color: #34cb4c;
+}
+
+#teachers .page-item {
+  padding: 8px;
+  border-radius: 6px;
+}
+
+#teachers .page-link {
+  color: #667085;
+}
+
+#teachers .page-link.active {
+  background-color: #f2ecfc;
+  color: #7e3ee5;
+}
+
+#teachers table {
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  border-bottom: 1px solid #eaecf0;
+  border-left: 1px solid #eaecf0;
+  border-right: 1px solid #eaecf0;
+}
+
+#teachers table th,
+#teachers table td {
+  border-bottom: 1px solid #eaecf0;
+}
+
+#teachers table thead {
+  color: #fff;
+  background-color: #f2f4f7;
+  position: relative;
+}
+
+.table > :not(caption) > * > * {
+  background: none !important;
+}
+
+#teachers .table thead th {
+  font-size: 14px;
+  color: #667085;
+}
+
+#teachers .table tbody td {
+  padding: 15px 8px;
+  vertical-align: middle;
+}
+
+#modal .modal-dialog {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 500px;
+}
+
+#modal .modal-content {
+  height: 100vh;
+}
+
+.dismiss-btn {
+  border: none !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+
+#modal .close-modal {
+  background: transparent !important;
+  border: 1px solid #eaecf0;
+  color: #344054;
+  font-size: 16px;
+}
+
+#modal .modal-footer button {
+  padding: 15px 70px !important;
+  border-radius: 8px !important;
+}
+
+#modal .modal-footer .add-modal {
+  border: none !important;
+  color: #fff;
+}
+
+.input-label-picture {
+  bottom: 0;
+  left: 57%;
+  top: 70%;
+}
+
+.date-birth .form-select {
+  background-image: url('../assets/img/Calendar.png');
+}
+
+#modal .form-control,
+#modal .form-select {
+  padding: 13px 14px !important;
+  border-radius: 8px !important;
+  border: 1px solid #d0d5dd !important;
+}
+
+.modal-footer {
+  box-shadow: -2px 0px 16px 0px #00000014;
+}

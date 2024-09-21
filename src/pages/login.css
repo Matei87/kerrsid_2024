@@ -1,0 +1,61 @@
+h1 {
+  font-size: 24px;
+  line-height: 38px;
+  color: #344054;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18.48px;
+  color: #7d7d7d;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  padding: 10px 14px 10px 14px;
+}
+
+.form-label {
+  font-size: 14px;
+  color: #7d7d7d;
+}
+
+.form-control::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #d0d5dd;
+  opacity: 0.95;
+}
+
+.form-control:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+.form-check label {
+  font-size: 14px;
+  color: #344054;
+}
+
+button {
+  background: #7e3ee5 !important;
+  padding: 12px 70px 12px 70px !important;
+  border-radius: 8px !important;
+}
+
+a,
+.forgot {
+  cursor: pointer;
+  text-decoration: none;
+  color: #7e3ee5;
+  font-size: 14px;
+}
+
+.gray {
+  color: #7d7d7d;
+}
+
+span {
+  font-size: 14px;
+}

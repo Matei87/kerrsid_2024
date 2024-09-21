@@ -1,0 +1,162 @@
+#dashboard .title {
+  font-size: 30px;
+  color: #344054;
+}
+
+#dashboard .total {
+  border: 1px solid #7e3ee533;
+  border-radius: 8px;
+  background-color: #7e3ee514;
+}
+
+#dashboard .total h2 {
+  font-size: 16px;
+  color: #344054;
+}
+
+#dashboard .total p {
+  font-size: 24px;
+  color: #7e3ee5;
+}
+
+.recharts-label {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.custom-tooltip {
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #eaecf0;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.attendance {
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  position: relative;
+  padding: 1rem;
+}
+
+.attendance .custom-form {
+  display: flex;
+  gap: 0.5rem;
+  position: absolute;
+  right: 10px;
+  z-index: 10;
+}
+
+.attendance .custom-form .form-select {
+  width: 8rem;
+  font-weight: 400;
+  font-size: 12px;
+  color: #344054;
+}
+
+.top-right-column {
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+}
+
+.top-right-column h2 {
+  color: #344054;
+  font-size: 18px;
+}
+
+.top-right-column .form-select,
+.performers .form-select {
+  background-image: none !important;
+}
+
+.top-right-column .teachers {
+  border-bottom: 1px solid #eaecf0;
+}
+
+.top-right-column .teachers:last-child {
+  border-bottom: none;
+}
+
+.top-right-column .teachers p {
+  font-size: 14px;
+  color: #344054;
+}
+
+.top-right-column .teachers span {
+  font-size: 12px;
+  color: #667085;
+}
+
+.top-right-column .teachers .rating {
+  width: fit-content;
+  border: 1px solid #eaecf0;
+  border-radius: 16px;
+  padding: 4px 10px;
+  color: #344054;
+}
+
+.students,
+.performers {
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+}
+
+.students h2,
+.performers h2 {
+  font-size: 18px;
+  color: #344054;
+}
+
+.students table {
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  border-bottom: 1px solid #eaecf0;
+  border-left: 1px solid #eaecf0;
+  border-right: 1px solid #eaecf0;
+}
+
+.table > :not(caption) > * > * {
+  background: none !important;
+}
+
+.students .table thead th {
+  font-size: 14px;
+  color: #667085;
+}
+
+.students .table .grade {
+  color: #34cb4c;
+}
+
+.students .table thead {
+  color: #fff;
+  background-color: #f2f4f7;
+  position: relative;
+  border-top-left-radius: 7px !important;
+  border-top-right-radius: 7px !important;
+}
+
+.students .table tbody tr td {
+  position: relative;
+  vertical-align: middle;
+}
+
+.students .table tbody td {
+  padding: 15px 8px;
+  vertical-align: middle;
+}
+
+.students .table tbody tr {
+  position: relative;
+}
+
+.students .table tbody tr::after {
+  content: '';
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  width: 90%;
+  border-bottom: 1px solid #eaecf0 !important;
+}

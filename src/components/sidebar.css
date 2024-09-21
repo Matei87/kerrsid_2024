@@ -1,0 +1,77 @@
+.form-control:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+.ps-sidebar-root {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-color: #eaecf0;
+}
+
+.ps-sidebar-container {
+  width: 100%;
+}
+
+.ps-menu-label {
+  font-size: 16px;
+  color: #7d7d7d;
+}
+
+.ps-menuitem-root {
+  padding: 0 20px;
+}
+
+.ps-menu-button {
+  padding: 10px 0 !important;
+  height: 44px !important;
+}
+
+.ps-menu-button:hover {
+  border-radius: 8px;
+}
+
+.ps-menuitem-root .ps-menu-button.active {
+  background-color: #f2ecfc;
+  color: #7e3ee5 !important;
+  border-radius: 8px;
+}
+
+.ps-menu-icon {
+  margin-right: 0 !important;
+}
+
+.ps-menu-button.active .ps-menu-label {
+  color: #7e3ee5;
+}
+.ps-menu-button.active svg path {
+  fill: #7e3ee5;
+}
+
+.sidebar-user {
+  width: 90%;
+  border-top: 1px solid #eaecf0;
+}
+
+.sidebar-user div p:first-child {
+  color: #344054;
+  font-size: 16px;
+}
+
+.sidebar-user div p:last-child {
+  color: #667085;
+  font-size: 12px;
+}
+
+aside .menu-input .form-control {
+  padding: 10px 14px 10px 34px !important;
+}
+
+aside .menu-input svg {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  transform: translate(-50%);
+}
